@@ -2,8 +2,7 @@
 <article style="width: 75%; margin: auto" role="article">
   <h1>{{ .Title }}</h1>
   <p>
-    <time>{{ .PublishDate.Format "January 2, 2006" }}</time> | {{ .ReadingTime
-    }} {{ if eq .ReadingTime 1 }} minute {{ else }} minutes {{ end }} read
+    <time>{{ .PublishDate.Format "January 2, 2006" }}</time> | {{ .ReadingTime }}{{ if eq .ReadingTime 1 }} minute {{ else }} minutes {{ end }} read
   </p>
   <div class="content">{{ .Content }}</div>
 </article>
