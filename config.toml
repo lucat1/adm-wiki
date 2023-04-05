@@ -1,7 +1,7 @@
 # if you uncomment styles will dismatch, use correct link when in production
 # baseURL = 'http://example.org' 
 languageCode = 'en-us'
-title = 'AdmStaffUnibo'
+title = 'AdmStaff'
 theme = 'adm'
 
 sectionPagesMenu = "main"
