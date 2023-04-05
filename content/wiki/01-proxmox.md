@@ -6,14 +6,14 @@ date: 2023-03-30T11:29:58+02:00
 Questa guida delinea come installare Proxmo su un nuovo nodo del cluster. Il nodo
 prenderà nome `pve{n}`.
 
-## Resettare il BIOS
+# Resettare il BIOS
 
 Togliere la batteria CMOS, attendere 30 sec e rimetterla.
 Su alcuni modelli, è necessario cortocircuitare i due pin dove viene inserita
 la batteria o mettere un jumper altrove sulla scheda madre (tutto a alimentatore
 staccato). Consultate il manuale della specifica scheda madre per le istruzioni.
 
-## Impostazioni del bios
+# Impostazioni del bios
 
 La posizione di queste opzioni nel bios varia da macchina a macchina. Per i
 computer
@@ -23,7 +23,7 @@ computer
 - Boot mode = UEFI
 - Exit > Save and Exit
 
-## Installazione di Proxmox
+# Installazione di Proxmox
 
 Configurazione generale:
 
@@ -38,7 +38,7 @@ Configurazione del network:
 - Gateway: `130.136.3.254`
 - DNS: `130.136.1.110 1.1.1.1`
 
-## Post installazione
+# Post installazione
 
 1. Entrare come root
 
