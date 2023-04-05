@@ -1,8 +1,13 @@
-<div role="heading" style="padding: 0 2rem; margin: 1rem 0">
-  <!-- sidebar menu start-->
-  <ul style="list-style-type: none; padding: 0">
+<!-- facciamo questo check così non abbiamo la sidebar
+per le cose fuori dalla wiki :D
+-->
+{{if ne .Page.Parent.Path  ""}}
+<div role="heading" >
+  <ul >
     {{ range sort .Page.Parent.Pages "Path" }}
     <li><a href="{{ .RelPermalink }}">{{ .Name }}</a></li>
     {{ end }}
   </ul>
 </div>
+
+{{end}}

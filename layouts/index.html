@@ -1,6 +1,9 @@
 {{ define "main" }}
 <main style="width: 70%; margin: auto; display: flex; flex-direction: column">
-  {{ range ( first 3 ( where .Site.Pages "Type" "blog" ).ByDate ) }}
+  {{ $pages := where .Site.RegularPages "Type" "blog" }}
+  {{ $pages = $pages.ByDate }}
+  {{ $pages = first 3 $pages }}
+  {{ range $pages }}
   <article role="article" style="margin: 2rem 0">
     <a href="{{ .RelPermalink }}">
       <h1 style="margin: 0.75rem 0">{{ .Title }}</h1>

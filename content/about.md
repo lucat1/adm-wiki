@@ -1,6 +1,8 @@
----
-title: "About"
----
++++
+title= "About"
+url= "/about"
+layout ="list"
++++
 
 # Gruppo Admstaff
 

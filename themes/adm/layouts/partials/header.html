@@ -1,19 +1,10 @@
-<header>
-  <nav
-    role="navigation"
-    style="
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      padding: 0.5rem 1rem;
-    "
-  >
-    <div class="navbar__left">
-      <a href="/"><strong>AdmStaff</strong></a>
-    </div>
-    <div class="navbar__right">
-      <a href="/blog">Blog</a>
-      <a href="/wiki">Wiki</a>
-    </div>
+<header class="page__header" >
+  <h1 class="page__logo"><a href="{{ .Site.BaseURL }}" class="page__logo-inner">{{ .Site.Title }}</a></h1>
+  <nav class="page__nav main-nav">
+      <ul>
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.main }}
+        <li class="main-nav__item"><a class="nav-main-item{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) (eq ($currentPage.Permalink) (.URL | absLangURL)) }} active{{end}}" href="{{ .URL | absLangURL }}" title="{{ .Title }}">{{ .Name }}</a></li>
+      {{ end }}
   </nav>
 </header>
