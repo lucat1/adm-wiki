@@ -1,5 +1,5 @@
 # if you uncomment styles will dismatch, use correct link when in production
-# baseURL = 'http://example.org' 
+baseURL = '/' 
 languageCode = 'en-us'
 title = 'AdmStaff'
 theme = 'adm'
