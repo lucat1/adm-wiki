@@ -13,14 +13,11 @@ sectionPagesMenu = "main"
     url = "/about/"
     weight = 10
 
-# C'è un bug strano che se togli questi due va a guardare nei contents (per Menu.Main), e prende
-# il nome delle cartelle con una s in più...
   [[menu.main]]
     identifier = "blog"
     name = "blog"
     url = "/blog/"
     weight = 10
-
 
   [[menu.main]]
     identifier = "wiki"
