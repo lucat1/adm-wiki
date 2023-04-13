@@ -30,9 +30,9 @@ manager in `/opt/dell/mdstoragemanager/mdstoragemanager/client`.
 
 ## Configuare un nodo per accedere allo storage
 
-È necessario collegarsi da proxmox alla vm con sopra il programma Dell per lo storage.
+È necessario collegarsi da proxmox alla vm con sopra il programma DELL per lo storage.
 Lo storage si trova nella sottorete `130.136.0.0/24`. Per accedere è quindi necessario
-assegnare la vm un ip nella stessa sottorete.
+assegnare alla vm un ip nella stessa sottorete.
 
 ```
 $ sudo ip a add 130.136.0.{random}/24 dev eth0
@@ -49,7 +49,7 @@ $ ip link set eth0 up
 
 Per vedere se il cambio di ip funziona basta pingare lo storage `$ ping 130.136.0.100`.
 
-Per avviare il software dell è necessario essere root e dare il comando
+Per avviare il software DELL è necessario essere root e dare il comando
 
 ```
 $ /opt/dell/mdstoragemanager/mdstoragemanager/client/SMclient
