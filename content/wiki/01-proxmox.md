@@ -18,10 +18,10 @@ staccato). Consultate il manuale della specifica scheda madre per le istruzioni.
 La posizione di queste opzioni nel bios varia da macchina a macchina. Per i
 computer
 
-- Settings > Restore defaults
-- Settings > Advanced > Power Management Set UP > Restore After AC Power Loss = (Power On)
-- Boot mode = UEFI
-- Exit > Save and Exit
+- **Settings > Restore defaults**
+- **Settings > Advanced > Power Management Set UP > Restore After AC Power Loss = (Power On)**
+- **Boot mode = UEFI**
+- **Exit > Save and Exit**
 
 # Installazione di Proxmox
 
