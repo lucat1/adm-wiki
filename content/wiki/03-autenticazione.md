@@ -3,8 +3,6 @@ title: "Autenticazione"
 date: 2023-05-11T11:51:00+02:00
 ---
 
-# Autenticazione
-
 Il bastione, `saragozza`, e tutti i nodi di proxmox (`pve{n}`) consentono
 l'accesso tramite il sistema LDAP interno, sia tramite password che tamite
 chiavi ssh. L'utente `root` su tutte queste macchine ha a disposizione le chiavi
