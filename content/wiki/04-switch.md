@@ -3,7 +3,7 @@ title: "Switch"
 date: 2023-09-28T12:55:12+02:00
 ---
 
-# Switch
+# Connect to the switch
 
 Lo switch si trova nella sottorete `130.136.0.0/24`. Per accedere è necessario
 collegarsi in ssh ad una macchina connessa con lo swtich (es. saragozza) e 
