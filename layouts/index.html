@@ -1,7 +1,7 @@
 {{ define "main" }}
 <main style="width: 70%; margin: auto; display: flex; flex-direction: column">
   {{ $pages := where .Site.RegularPages "Type" "blog" }}
-  {{ $pages = $pages.ByDate }}
+  {{ $pages = $pages.ByDate.Reverse }}
   {{ $pages = first 3 $pages }}
   {{ range $pages }}
   <article role="article" style="margin: 2rem 0">
