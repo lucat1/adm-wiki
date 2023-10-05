@@ -5,8 +5,6 @@ author: "Admstaff"
 draft: false
 ---
 
-# Prossimi incontri | _Laboratori fra pari_
-
 Anche quest'anno con grande richiesta riproponiamo laboratori su:
 - **Terminale Base**: impariamo a muoverci nel terminale, manipolare file/directory, gestire i permessi...
 - **Git 1 | comandi base**: impariamo a gestire i nostri progetti con Git, creare repository, fare commit...
@@ -22,4 +20,4 @@ Questi non sono corsi universitari, sono incontri/laboratori organizzati da stud
 
 Per qualsiasi info o domande: [t.me/admstaff_Chat](https://t.me/admstaff_Chat)
 
-<img src="../../static/img/ADM-Lab_Git_e_terminale.png" alt="Prossimi incontri Laboratori fra pari 2023 - ADMStaff" height="40%" style="text-align:centered"/>
+![Prossimi laboratori fra pari](/img/ADM-Lab_Git_e_terminale.png)
