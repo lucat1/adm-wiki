@@ -42,7 +42,7 @@ Configurazione del network:
 
 1. Entrare come root
 
-2. Per verificare il collegamento ad internet si possono pigare altri nodi del
+2. Per verificare il collegamento ad internet si possono pingare altri nodi del
    cluster e macchine esterne (ad esempio `1.1.1.1`).
 
 3. Verificare il funzionamento dell'interfaccia web da una vostra macchina: per
