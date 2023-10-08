@@ -25,4 +25,13 @@ il modo di farla funzionare. Per configurarlo è quindi necessario utilizzare
 telnet 130.136.0.253
 ```
 
+# Change ip address
 
+Se si volesse cambiare indirizzo ip dello switch è necessario connettersi con
+telnet ed inserire la password. Successivamente bisogna entrare nella sezione
+`setup`.
+
+Si noti che se non è specificato un _community name_ allora nessun parametro è
+modificabile all'interno della finestra di `setup`. Dovrebbe esistere già `adm`
+come community name, se ciò non fosse è necessario crearne uno all'interno del
+pannello `config` con il sottocomando `snmp-server` o `snmpv3`.
