@@ -1,5 +1,5 @@
 ---
-title: "Storage"
+title: "Storage (DEPRECATO)"
 date: 2023-03-30T11:37:38+02:00
 ---
 
