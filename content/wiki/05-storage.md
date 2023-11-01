@@ -161,7 +161,7 @@ Per controllare che l'aggiunta sia stat efficace è possibile usare il comando
 zpool status
 ```
 
-## Scrub and samrt
+## Scrub and smart
 
 Per controllare che i dati non si siano corrotti all'insaputa di zfs è necesario
 eseguire periodicamente un scrub della pool. In pratica lo scrub controlla dato
