@@ -118,9 +118,10 @@ Gli di per le nuove macchine devono rispettare questo schema (partendo da sinist
 | Categoira | Valore |
 |--|--|
 | Networking | 1 |
-| General Purpose | 2 |
-| Testing | 3 |
-| Templates | 4 |
+| Secuirty | 2 |
+| General Purpose | 5 |
+| Testing | 8 |
+| Templates | 9 |
 
 > Un possibile ID può dunque essere: 100102050 ovvero una vm per il networking creata dall'utente fil con ip 130.136.3.050
 
